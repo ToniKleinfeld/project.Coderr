@@ -1,16 +1,16 @@
 const GUEST_LOGINS = {
     customer : {
-        username: 'andrey',
+        username: 'Gustav',
         password: 'asdasd'
     },
     business : {
-        username: 'kevin',
+        username: 'Anton',
         password: 'asdasd24'
     }
 }
 
-const API_BASE_URL = 'http://127.0.0.1:8000/api/';
-const STATIC_BASE_URL = 'http://127.0.0.1:8000/';
+const API_BASE_URL = 'https://django.toni-kleinfeld.org/api/';
+const STATIC_BASE_URL = 'https://django.toni-kleinfeld.org/';
 
 
 const LOGIN_URL = 'login/';
